@@ -1,0 +1,97 @@
+// Contact Container
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #fff, #e4885d);
+  color: #fff;
+  text-align: center;
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+
+  // Form Styling
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+
+    .form-input,
+    .form-textarea {
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .form-input:hover,
+    .form-textarea:hover {
+      box-shadow: 0 0 10px rgba(88, 166, 255, 0.6);
+    }
+
+    .submit-btn {
+      background: #a95147;
+      color: #ffffff;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 5px;
+      padding: 0.8rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background: #a95147;
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(88, 166, 255, 0.3);
+    }
+  }
+// Social Links
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .social-icon {
+      margin: 0 1rem;
+      color: #fff;
+      font-size: 2rem;
+      transition: transform 0.3s ease, color 0.3s ease;
+
+      &:hover {
+        color: black;
+        transform: scale(1.2) rotate(10deg);
+      }
+    }
+  }
+}
+// Responsive Design
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .form-input,
+  .form-textarea,
+  .submit-btn {
+    font-size: 0.9rem;
+  }
+  .social-icon {
+    font-size: 1.5rem;
+  }
+}

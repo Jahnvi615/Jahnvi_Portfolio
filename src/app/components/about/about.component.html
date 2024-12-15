@@ -1,0 +1,31 @@
+
+<div class="conatiner innerAbout" id="about">
+    <div class="heading">
+        <h1>About Me</h1>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <hr class="aboutHR">
+    </div>
+    <div class="row d-flex justify-content-center">
+            <img [src]="userData.image" class="myImage">
+    </div>
+    <div class="row">
+            <div class="col mainR">
+            <p class="contentMe mainR"> 💬 Hii, I'm Jahnvi, a passionate IT enthusiast.<br>
+                📙 B.Tech IT student, 4th year.<br>
+                🔭 Intrested in web-development, responsive websites, Python, anything tech.<br>
+                🖥  Develops webapps, back-end works, responsive sites.<br>
+                😘 Loves creative ideas, coding adventures, and exploring the world one trip at a time. 🚀💻✈️<br>
+                📚 Branch - {{userData.Branch}}<br>
+                💃 Likes dance, sports, creativity and obviously coding.
+            </p>
+    </div>
+    </div>
+    <div class="row soicalLinks">
+        <ul class="d-flex justify-content-center">
+            <li *ngFor="let social of socialMedia">
+                <a [href]="social.profileLink"><img [src]="social.imageLink" class="socialIcons" width="37px"></a>
+            </li>
+        </ul>
+    </div>
+</div>

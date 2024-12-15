@@ -1,0 +1,18 @@
+<div class="skills-section">
+    <h2>My Skills</h2>
+    <div class="row d-flex justify-content-center">
+      <hr class="skillsHr">
+    </div>
+    <div class="skills-container">
+      <div class="skill" *ngFor="let skill of skills">
+        <div class="skill-icon">
+          <!-- Display image if it's an image file -->
+          <img *ngIf="skill.icon.includes('.png')" [src]="skill.icon" alt="{{ skill.name }}" />
+          <!-- Display Font Awesome icon otherwise -->
+          <i *ngIf="!skill.icon.includes('.png')" [class]="skill.icon"></i>
+        </div>
+        <p>{{ skill.name }}</p>
+      </div>
+    </div>
+  </div>
+  

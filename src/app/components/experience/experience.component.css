@@ -1,0 +1,181 @@
+.card-img-top {
+    height: 155px;
+    position: relative;
+}
+
+.card {
+    border-radius: 0; /* Removed rounded corners */
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 4px #C3073F;
+    transition: 5ms;
+    transform: translateY(-10px);
+    background-color: #984848;
+    color: #fff;
+}
+
+.boxTms {
+    padding: 25px;
+}
+
+.card-settings {
+    height: 500px;
+    position: relative;
+}
+
+.go-to-org-css {
+    position: absolute;
+    width: 90%;
+    left: 20px;
+    bottom: 15px;
+}
+
+.mainTitle {
+    margin-top: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.timeLineHR {
+    background-color: #C3073F;
+    border: 1px solid #C3073F;
+    width: 70%;
+}
+
+.experienceContainer {
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yearText {
+    margin-bottom: 25px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.smallImage {
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+} 
+
+.card-img-top {
+    height: 155px;
+    position: relative;
+}
+
+.card {
+    border-radius: 0; /* Ensure the card has no rounded edges */
+    width: 70%; /* Reduce the width of the card to 70% */
+    max-width: 350px; /* Further limit the maximum width */
+    margin: 10px auto; /* Center the card */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 4px #C3073F;
+    transform: translateY(-10px);
+    background-color: #984848;
+    color: #fff;
+}
+
+.boxTms {
+    padding: 25px;
+}
+
+.card-settings {
+    height: 500px;
+    position: relative;
+}
+
+.go-to-org-css {
+    position: absolute;
+    width: 90%;
+    left: 20px;
+    bottom: 15px;
+}
+
+.mainTitle {
+    margin-top: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.timeLineHR {
+    background-color: #C3073F;
+    border: 1px solid #C3073F;
+    width: 70%;
+}
+
+.experienceContainer {
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yearText {
+    margin-bottom: 25px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.smallImage {
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+}
+
+/* Media Query for smaller screens (Phones) */
+@media (max-width: 767px) {
+    .card {
+        width: 60%; /* Make the card even narrower on mobile screens */
+        max-width: 300px; /* Further limit the width on mobile */
+    }
+
+    .cards-list {
+        justify-content: center; /* Center the cards on smaller screens */
+    }
+}
