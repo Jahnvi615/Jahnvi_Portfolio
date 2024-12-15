@@ -69,7 +69,7 @@ export class UserDataService {
     },
     {
       heading:"Celebal Technologies Intern",
-      content:"During my SQL internship, I worked extensively on database management tasks, including designing and implementing database structures, writing complex SQL queries, and managing data efficiently.",
+      content:"During my SQL internship, I worked extensively on database management tasks, including designing and implementing database structures, writing complex SQL queries.",
       color:"black",
       image:"assets/ex2.png",
       myJob:"SQL Development",
@@ -87,7 +87,7 @@ export class UserDataService {
     },
     {
       heading:"GWECA - Coding Club Coordinator",
-      content:"As a Coding Club Coordinator, I led and organized coding events, workshops, fostering a collaborative learning environment. I guided team members, facilitated project development, and promoted coding culture.",
+      content:"As a Coding Club Coordinator, I led and organized coding events, workshops, fostering a collaborative learning environment. I guided team members and promoted coding culture.",
       color:"darkred",
       image:"assets/ex4.png",
       myJob:"Coordinator",
